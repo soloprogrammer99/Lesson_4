@@ -1,0 +1,102 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@400;700&display=swap');
+
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+li {
+	list-style: none;
+} 
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+
+body {
+	font-family: 'Balsamiq Sans', sans-serif; 
+	line-height: 2;
+	font-weight: 400;
+	margin: 20px;
+} 
+
+h1,
+h2, 
+h3 {
+	font-style: italic;
+	font-family: 'Balsamiq Sans', sans-serif;
+}
+
+.content-four {
+	text-transform: uppercase;
+	word-spacing: 5px;
+	text-align: center;
+	margin-top: 20px;
+}
+
+.content-one p,
+.content-two p,
+.content_three p {
+	text-transform: uppercase;
+	word-spacing: 5px;
+	text-align: center;
+	margin-top: 20px;
+}
+.content-one span,
+.content-two span {
+	background-color: gainsboro;
+	color: green;
+}
+
+a {
+	text-decoration: underline;
+}
+
+.content-title {
+	text-align: center;
+	color: blueviolet;
+	text-transform: uppercase;
+	font-weight: 700;
+	text-decoration: underline;
+}
+
+.content-one__title,
+.content-two__title {
+	font-size: 30px;
+	text-align: center;
+	color: green;
+	text-transform: uppercase;
+	font-weight: 700;
+	text-decoration: underline;
+	text-shadow: -8px -5px 9px yellow;
+}
+
+.content-three__title {
+	font-size: 30px;
+	text-align: center;
+	color: rgb(94, 10, 94);
+	text-transform: uppercase;
+	font-weight: 700;
+	text-decoration: underline;
+	text-shadow: -8px -5px 9px palevioletred;
+}
+
+h3 {
+	font-size: 25px;
+	text-align: center;
+	color: violet;
+	text-transform: uppercase;
+	text-decoration: underline;
+	font-weight: 700;
+	word-spacing: 5px;
+	margin-top: 20px;
+}
+.del {
+	text-decoration: line-through;
+}
